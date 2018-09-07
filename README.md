@@ -1,12 +1,10 @@
 # random-profile
 Random Profiles es un ejercicio mobile simple en Android para descargar datos de una API REST. 
-==========
 
 ## Descripción
 Mediante Retrofit hacemos las peticiones al servidor, guardando los resultados para mostrarlos en una interfaz diseñada en base a elementos de Material Design. Convirtiendo objetos JSON a objetos JAVA mediante la librería de Google GSON, mostramos el ejemplo en un Recycler View de usuarios random que nos brinda la API. Todo organizado en arquitectura MVC.
 
 ## Librerías 
-==========
 
 MATERIAL DESIGN
 - MD library
@@ -33,7 +31,6 @@ implementation 'com.github.bumptech.glide:glide:3.8.0'
 annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
 
 ## MATERIAL ELEMENTS
-==========
 - RecyclerView
 - AppBar
 - SnackBar
